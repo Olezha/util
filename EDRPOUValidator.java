@@ -3,6 +3,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 /* http://1cinfo.com.ua/Articles/Proverka_koda_po_EDRPOU.aspx */
+/* TODO: ten digit algorithm */
 public class EDRPOUValidator implements ConstraintValidator<EDRPOU, String> {
     private static final int THIRTY_MILLION = 30000000;
     private static final int SIXTY_MILLION = 60000000;
